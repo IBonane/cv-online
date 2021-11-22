@@ -1,0 +1,216 @@
+#trait-h{
+    border-top: 5px solid chocolate; 
+    width: 80px; 
+    height: 2px;
+}
+
+#trait-verticale{
+
+    border-left: 5px solid chocolate; 
+    width: 2px; 
+    height: 80px;
+}
+
+
+#comp{
+    height: 1000px;
+    display: inline-block;
+}
+
+
+#langage{
+    /*background-color: #007bff; */
+    width: 40%; 
+    line-height: 25px;
+    margin-right: 10%;
+    margin-top: 5%; 
+    padding-left: 5%;
+    margin-left: 10%; 
+    font-weight: bold;
+    color: chocolate;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-h1{
+    text-align: center; 
+    margin-left: -20%;
+    margin-bottom: 7%;
+    padding-top: 5%;
+}
+
+.langage-p{
+    margin-bottom: -5px; 
+    margin-left: 5%; 
+    margin-top: 3%;
+}
+
+.langage-progress{
+    border: 1px;
+    width: 400px; 
+    margin-left: 5%;
+    margin-top: -1%
+}
+
+#framework{
+    width: 40%; 
+    line-height: 26px;
+    margin-right: 10%;
+    margin-top: -34.4%; 
+    margin-left: 55%;
+    color: chocolate;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 10px rgba(0, 0, 0, 0.1);
+     
+}
+.framework-p{
+    margin-bottom: -5px; 
+    margin-left: 20%; 
+    margin-top: 3%;
+}
+
+.framework-progress{
+    border: 1px;
+    width: 400px; 
+    margin-left: 20%;
+    margin-top: -1%
+}
+
+#text-h2{
+    padding-top: 5%;
+    text-align: center; 
+    margin-top: 0; 
+    margin-bottom: 10%
+}
+
+progress::-moz-progress-bar { 
+    background-color: rgb(61, 152, 238); 
+}
+progress::-webkit-progress-value { 
+    background-color: rgb(61, 152, 238); 
+
+}
+
+progress { 
+    color: rgb(61, 152, 238); 
+}
+
+@media only screen and (max-width: 1734px) {
+
+    #langage{
+        /*background-color: #007bff; */
+        width: 35%; 
+        
+    }
+    
+    
+    .langage-progress{
+        width: 300px; 
+    }
+    
+    #framework{
+        width: 35%; 
+        margin-top: -37%;
+        margin-left: 50%;
+    }
+    .framework-progress{
+        width: 300px; 
+       
+    }
+}
+
+@media only screen and (max-width: 1480px) {
+
+    #framework{
+        margin-top: -43%;
+    }
+}
+
+@media only screen and (max-width: 1304px) {
+
+    #framework{
+        margin-top: 55%;
+    }
+}
+
+@media only screen and (max-width: 1291px) {
+
+    #comp{
+        height: 1600px;
+        display: block;
+    }
+
+    #langage{
+        width: 55%;   
+        margin-left: 30%;  
+    }
+    
+    
+    .langage-progress{
+        width: 300px; 
+    }
+    
+    #framework{
+        width: 55%; 
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+    .framework-progress{
+        width: 300px; 
+       
+    }
+    .text-h1{
+        margin-left: -10%;
+        font-size: 22px;
+    }
+
+    #text-h2{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #langage{
+        width: 70%;   
+        margin-left: 15%;
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    .langage-progress{
+        width: 180px; 
+        margin-left: 5%;
+    }
+    
+    #framework{
+        width: 70%; 
+        margin-top: 5%;
+        margin-left: 15%;
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    }
+    .framework-progress{
+        width: 180px; 
+        margin-left: 15%;
+       
+    }
+    .text-h1{
+        margin-left: -10%;
+        font-size: 18px;
+        padding-top: 10%;
+    }
+
+    #text-h2{
+        font-size: 18px;
+        padding-top: 10%;
+    } 
+
+    .head_apropos{
+        font-size: 18px;
+    }
+
+    #trait-h{
+        margin-left: 12%;
+        margin-bottom: 5%;
+    }
+}

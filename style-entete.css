@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color1:#d89584;
+    --color2: #007bff;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    line-height: 1;
+}
+
+.entete{
+    position: relative;
+    width: 100%; 
+    height: 400px; 
+}
+.shadow{
+    background-color: white; 
+    top:2%; 
+    left: 2.5%; 
+    width: 95%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 10px rgba(0, 0, 0, 0.1);
+}
+.cover{
+    position: relative; 
+    background-color: var(--color2); 
+    top:2%; 
+    left: 2.5%; 
+    width: 95%;
+    height: 380px; 
+    align-items: center; 
+    border-radius: 30px;
+}
+
+#profil{
+    position: relative; 
+    left: 50%; 
+    height: 100px; 
+    margin-left: -50px; 
+    margin-top: 20px; 
+    margin-bottom: -15px;
+}
+
+#name{
+    text-align: center; 
+    font-weight: bold; 
+    color: white; 
+    font-size: 30px;
+}
+
+#doamin-title{
+    text-align: center;  
+    color: lightgray; 
+    font-size: 18px;
+}
+
+.div_button_contact{
+    position: relative;
+    margin-top: -10px;
+    left: 27%;
+    top: 10%;
+    width: 50%;
+    height: 100px;
+    padding-top: 2%;
+}
+
+div.div_button_contact a{
+    
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    padding: 15px 15px;
+    border: 3px solid orange;
+    background-color: #00000060;
+    text-decoration: none;
+    border-radius: 30px;
+    color: orange;
+    left: 50%;
+    
+}
+
+div.div_button_contact a:hover{
+    color: white;
+    background-color:  #00000090;
+}
+
+#button_email{
+    margin-left: 10%;
+    
+
+}
+
+#button_phone{
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 1286px) {
+    .div_button_contact{
+        position: block;
+        left: 25%;
+    }
+
+    div.div_button_contact a{
+        
+        display: inline-block;
+        font-size: 18px;
+        width: 80%;    
+        border: none;
+    }
+
+    #button_email{
+        margin-top: -5%;     
+           
+    }
+    
+    #button_phone{
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .div_button_contact{
+        position: block;
+        left: 5%;
+    }
+    div.div_button_contact a{
+        border: none; 
+        font-weight: bold;
+        width: 160%;
+    }
+}
