@@ -172,19 +172,22 @@ progress {
 @media only screen and (max-width: 767px) {
 
     #langage{
-        width: 70%;   
+        width: 73%;   
         margin-left: 15%;
         box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
     }
     
-    
+    .langage-p, .framework-p{
+        margin-left: 15%; 
+    }
+
     .langage-progress{
         width: 180px; 
-        margin-left: 5%;
+        margin-left: 15%;
     }
     
     #framework{
-        width: 70%; 
+        width: 72%; 
         margin-top: 5%;
         margin-left: 15%;
         box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
@@ -195,13 +198,13 @@ progress {
        
     }
     .text-h1{
-        margin-left: -10%;
-        font-size: 18px;
+        margin-left: -9%;
+        font-size: 16.5px;
         padding-top: 10%;
     }
 
     #text-h2{
-        font-size: 18px;
+        font-size: 16.5px;
         padding-top: 10%;
     } 
 
